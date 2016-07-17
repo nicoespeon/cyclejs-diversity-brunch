@@ -2,13 +2,17 @@
 
 This repository illustrate the issue I'm facing to run [Cycle.js Diversity](https://github.com/cyclejs/core/releases/tag/v7.0.0) with latest version of Brunch + ES6.
 
+See https://github.com/brunch/brunch/issues/1449.
+
 ## Witness the issue
 
 1. Clone this repo
 2. `npm install`
 3. `npm start`
-4. Go to http://localhost:3333/
-5. Open your DevTools, a wild error message should appear
+4. Go to <http://localhost:3333/>
+5. Open your DevTools, a wild error message should appear:
+
+<img width="680" alt="capture d ecran 2016-07-17 a 14 36 07" src="https://cloud.githubusercontent.com/assets/1094774/16900722/441628ee-4c2d-11e6-8fc9-af6de09446a8.png">
 
 ## Steps to reproduce this repo
 
